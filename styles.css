@@ -1,0 +1,37 @@
+
+.form-group{
+    border-style:  solid;
+    border-width: 1px;
+    text-align: left;
+    margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
+  
+  .form-pick{
+    border-style:  solid;
+    border-width: 1px;
+    text-align: left;
+    margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
+  
+  .improve{
+    border-style:  solid;
+    border-width: 1px;
+    text-align: left;
+    margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
+  
+  .letter{
+    border-style:  solid;
+    border-width: 1px;
+    text-align: left;
+    margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
+  
+  .letter{
+    display: block;
+    border: 1px solid black;
+  }
