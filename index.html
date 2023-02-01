@@ -7,55 +7,72 @@
     <title>Survey Form</title>
     </head>
     <body>
-    
-      <h1 id="title">Survey Form</h1>
+
+        <div class="bida">
+            <div class="texts">
+        <h1 id="title">Survey Form</h1>
       <p id="description"> A survey on who is the top Kpop idol!</p>
-
+      </div>
+      <img class="heartu" src="https://i.pinimg.com/564x/53/97/a9/5397a9be52465c4dbf2b85b6bbeba679.jpg">
+    </div>
+        
+    <form id="survey-form">
+    
       <div class="form-group">
-      <form id="survey-form">
-      <label id="name-label" ><p>Input Name</p></label>
-      <input id="name" type="text" required placeholder="Enter your name"></input></form>
       
-
+      <label id="name-label" ><span>Input Name</span></label><input id="name" type="text" required placeholder="Enter your name">
       
-     <form id="survey-form"><label id="email-label"><p>Input Email</p></label><input id="email" type="email" required placeholder="Enter your email" ></input></form>
+     <label id="email-label"><span>Input Email</span></label><input id="email" type="email" required placeholder="Enter your email" ></input>
      
-
-
-     <form id="survey-form"><label id="number-label">
-     <p> Input your age</p><input id="number" type="number" min="10" max="99" placeholder="Enter your age" required></input></form>
+    <label id="number-label">
+     <span> Input your age</span></label><input id="number" type="number" min="10" max="99" placeholder="Enter your age" required>
      </div>
 
 <div class="form-pick">
-  <p>Who is your number 1 pick?</p>
-    <form id="survey-form"> <select id="dropdown"><option>Choose here</option>
+  <span>Who is your number 1 pick?</span>
+    <select id="dropdown"><option>Choose here</option>
     <option>Cha Eun Woo</option>
     <option>Hwang Minhyun</option>
     <option> Kyungsoo</option>
     <option>Baekhyun</option>
-    </select></form>
+    </select>
     </div>
     
  <div class="form-pick">
-   <p>Which position do you want your bias to try?
-   <form id="survey-form">
- <input type="radio" name="vocals" value="singer" name="Sing" >Vocals
+   <span>Which position do you want your bias to try?</span>
+   <label>
+    <input type="radio" name="vocals" value="singer" name="Sing" >Vocals
+   </label>
+ 
+   <label>
+    <input type="radio" name="dancer" value="dance" >Dance
+   </label>
 
-<input type="radio" name="dancer" value="dance" >Dance
+   <label>
+    <input type="radio" name="dancer" value="dance" >Visual
+   </label>
 
-<input type="radio" name="dancer" value="dance" >Visual
+   <label>
+    <input type="radio" name="vocals" value="singer" >Rap
+   </label>
 
-<input type="radio" name="vocals" value="singer" >Rap
-
-
-  </form> </div>   
+   </div>   
     
  <div class="improve">
-   <p>Do you want your bias to visit your country? <form id="survey-form"><input type="checkbox" name="No" value="definitely">Yes</input>
-    <input type="checkbox" name="No" value="definitely">No</input></form>
+   <span>Do you want your bias to visit your country?</span> 
+   <label>
+    <input type="checkbox" name="No" value="definitely">Yes</input>
+   </label>
+   <label>
+    <input type="checkbox" name="No" value="definitely">No</input>
+   </label>    
     </div>
 
- <div class="letter">   <p> What do you want to say to your bias?</p><form id="survey-form"><textarea></textarea><button id="submit" type="submit"></button>
+ <div class="letter"><span> What do you want to say to your bias?</span><textarea placeholder="Say something"></textarea>
+    <button id="submit" type="submit">Submit</button>
     </div>
+</form>
+
+<img class="img" src="https://i.pinimg.com/564x/fa/9b/ea/fa9bead98d96fc50eca71a53ba8d40b5.jpg">
       </body>
   </html>
